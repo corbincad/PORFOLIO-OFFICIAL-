@@ -19,13 +19,14 @@ body {
     box-shadow: 10px 10px 10px black;
 }
 
-.col-md-4:hover {
+#bioParagraph {
 
     border-radius: 30px;
-    zoom: 1.1
+    zoom: 1.1;
+    font-size: 25px;
 }
 
-#personalbio {
+#headLineName {
 
     color:darkslateblue;
     float: left;
@@ -58,49 +59,28 @@ img {
 img:hover {
 
     opacity: 100;
-    height: 550px;
     border: 10px solid lightcoral;
     box-shadow: 15px 15px 15px black;
 }
 
 footer {
 
-    height: 75px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
 
 a {
-
     padding: 20px;
 }
 
-iframe {
 
-    padding: 100px;
-    box-shadow: 10px 10px 10px black;
-    background-color: lightsteelblue;
-}
 
-#container {
 
-    float: right;
-    margin-top: -600px;
-    margin-right: 70px;
-}
 
-#container:last-child {
-
-    padding: 30px;
-    height: 200px;
-    margin-top: 30px;
-}
-
-#container:hover {
-
-    height: 250px;
-    border: 10px solid lightcoral;
-    box-shadow: 20px 20px 20px black;
-    border-radius: 30px;
-}
 
 
 
