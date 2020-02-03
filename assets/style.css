@@ -3,10 +3,16 @@
     font-family: 'Space Mono', monospace;
 }
 
+body{
+    background-color: grey;
+}
+
 .jumbotron {
 
     background-color: rgb(44, 44, 44);
     height: 200px;
+    margin-right: 20%;
+    box-shadow: 10px 10px 10px black;
 }
 
 .col-md-4 {
@@ -23,15 +29,16 @@
 
     border-radius: 30px;
     font-size: 25px;
-    border: 3px solid black;
     margin-left: 28%;
     margin-top: -15%;
+    letter-spacing: 1px;
+    
 }
 
-#headLineName {
+#headlineName {
 
-    color: rgb(207, 207, 207);
-    float: left;
+    color: rgb(226, 226, 226);
+    float: right;
     font-size: 75px;
     padding: 20px;
 }
@@ -60,7 +67,6 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    color: white;
     text-align: center;
     
 }
