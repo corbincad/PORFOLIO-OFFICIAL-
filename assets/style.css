@@ -13,6 +13,7 @@ body{
     height: 200px;
     margin-right: 20%;
     box-shadow: 10px 10px 10px black;
+    padding-right: 2%;
 }
 
 .col-md-4 {
@@ -72,7 +73,8 @@ footer {
 }
 
 a {
-    margin: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #imagePlacement{

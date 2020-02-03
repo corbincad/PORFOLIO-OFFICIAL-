@@ -1,20 +1,27 @@
+*{
+    font-family: 'Space Mono', monospace;
+}
+
+#jumbotron {
+
+    background-color: rgb(44, 44 ,44);
+    height: 200px;
+    text-align: right;
+    color: rgb(199, 199, 199);
+    margin-right: 20%;
+    box-shadow: 10px 10px 10px black;
+    padding-right: 2%;
+}
+
 iframe {
 
-    margin: 200px;
     border-radius: 50px;
     zoom: 1;
 }
 
-.col {
+body {
 
-    margin-left: 900px;
-    margin-top: -500px;
-
-}
-
-#body {
-
-    background-color: lightslategray;
+    background-color: grey;
 
 }
 
@@ -24,12 +31,3 @@ header {
 
 }
 
-#jumbotron {
-
-    background-color: lightskyblue;
-    height: 200px;
-    text-align: center;
-    margin-top: 40px;
-    padding-top: 10px;
-    border-radius: 40px;
-}
