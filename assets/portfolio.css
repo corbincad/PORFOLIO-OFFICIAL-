@@ -13,21 +13,28 @@
     padding-right: 2%;
 }
 
-iframe {
-
-    border-radius: 50px;
-    zoom: 1;
-}
-
 body {
 
     background-color: grey;
-
 }
 
 header {
 
-    font-size: 150px;
-
+    font-size: 75px;
+    color: rgb(226, 226, 226);
+    float: right;
+    font-size: 75px;
 }
+
+.col-md-6{
+
+    margin-top: 20%;    
+}
+
+iframe{
+
+    
+    padding: 50px;
+}
+
 
