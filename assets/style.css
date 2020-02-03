@@ -1,3 +1,8 @@
+* {
+
+    font-family: 'Space Mono', monospace;
+}
+
 body {
 
     height: 100%;
@@ -9,14 +14,13 @@ body {
 }
 
 .col-md-4 {
-
-    border: 5px solid lightcoral;
+    
     margin: 75px;
     margin-left: 25%;
     margin-top: -475px;
     font-size: 20px;
     padding: 18px;
-    box-shadow: 10px 10px 10px black;
+    
 }
 
 #bioParagraph {
@@ -48,18 +52,10 @@ img {
     margin-top: 40px;
 }
 
-#personalbio:hover {
-
-    color: rgb(143, 125, 255);
-    margin: 0px;
-    border-radius: 50px;
-    text-shadow: 5px 5px 5px black;
-}
-
 img:hover {
 
     opacity: 100;
-    border: 10px solid lightcoral;
+    border: 10px solid rgb(44, 44, 44);
     box-shadow: 15px 15px 15px black;
 }
 
