@@ -3,13 +3,9 @@
     font-family: 'Space Mono', monospace;
 }
 
-body {
-
-    height: 100%;
-}
-
 .jumbotron {
 
+    background-color: rgb(44, 44, 44);
     height: 200px;
 }
 
@@ -26,17 +22,20 @@ body {
 #bioParagraph {
 
     border-radius: 30px;
-    zoom: 1.1;
     font-size: 25px;
+    border: 3px solid black;
+    margin-left: 28%;
+    margin-top: -15%;
 }
 
 #headLineName {
 
-    color:darkslateblue;
+    color: rgb(207, 207, 207);
     float: left;
     font-size: 75px;
     padding: 20px;
 }
+
 
 img {
 
@@ -47,15 +46,11 @@ img {
     box-shadow: 10px 10px 10px black;
 }
 
-.col-sm-8 {
-
-    margin-top: 40px;
-}
 
 img:hover {
 
     opacity: 100;
-    border: 10px solid rgb(44, 44, 44);
+    border: 5px solid rgb(44, 44, 44);
     box-shadow: 15px 15px 15px black;
 }
 
@@ -67,10 +62,16 @@ footer {
     width: 100%;
     color: white;
     text-align: center;
+    
 }
 
 a {
-    padding: 20px;
+    margin: 100px;
+}
+
+#imagePlacement{
+
+    margin: 5%;
 }
 
 
