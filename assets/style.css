@@ -4,6 +4,7 @@
 }
 
 body{
+
     background-color: grey;
 }
 
@@ -16,24 +17,10 @@ body{
     padding-right: 2%;
 }
 
-.col-md-4 {
-    
-    margin: 75px;
-    margin-left: 25%;
-    margin-top: -475px;
-    font-size: 20px;
-    padding: 18px;
-    
-}
-
 #bioParagraph {
 
-    border-radius: 30px;
     font-size: 25px;
-    margin-left: 28%;
-    margin-top: -15%;
     letter-spacing: 1px;
-    
 }
 
 #headlineName {
@@ -48,7 +35,7 @@ body{
 img {
 
     opacity: .80;
-    height: 500px;
+    height: 350px;
     border-radius: 25px;
     margin: 20px;
     box-shadow: 10px 10px 10px black;
@@ -71,18 +58,6 @@ footer {
     text-align: center;
     
 }
-
-a {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-#imagePlacement{
-
-    margin: 5%;
-}
-
-
 
 
 
